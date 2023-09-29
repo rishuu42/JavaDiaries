@@ -1,0 +1,20 @@
+/* 
+Program Description: Java program to print Fibonacci Series. 
+Author: Rishitt Gupta
+Roll no: R2142220352 
+SAP ID: 500107002 
+Date: 18 ‎August ‎2023 
+*/ 
+public class Main {  
+    public static void main(String[] args) {  
+        int num1 = 1;  
+        int num2 = 1;  
+        System.out.println("Fibonacci Series: ");  
+        System.out.print(num2);  
+        while (num2 < 50) {  
+            System.out.print(" " + num2);  
+            num2 = num1 + num2;  
+            num1 = num2 - num1;  
+        }  
+    }  
+}  
